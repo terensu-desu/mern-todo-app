@@ -1,0 +1,30 @@
+{
+  "name": "express-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app_hooked.js"
+  },
+  "keywords": [
+    "MERN",
+    "React",
+    "Express",
+    "Node",
+    "MongoDB"
+  ],
+  "author": "Terence Mangram",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-es2015-node": "^6.1.1",
+    "babel-preset-es2015-node6": "^0.4.0",
+    "babel-register": "^6.26.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-busboy": "^6.0.1",
+    "mongoose": "^5.0.3",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.14.12",
+    "source-map-support": "^0.5.3"
+  }
+}
