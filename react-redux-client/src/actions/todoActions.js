@@ -67,7 +67,7 @@ export const fetchTodoById = (todoID) => {
 	return (dispatch) => {
 		dispatch(fetchTodosRequest());
 		// Returns a promise
-		return fetch(apiUrl + todoId)
+		return fetch(apiUrl + todoID)
 			.then(response => {
 				console.log(response)
 				if(response.ok) {
@@ -86,7 +86,7 @@ export const fetchTodoById = (todoID) => {
 
 export const fetchTodoRequest = () => {
 	return {
-		type: 'FETCH_TODO_REQUEST';
+		type: 'FETCH_TODO_REQUEST'
 	}
 }
 
